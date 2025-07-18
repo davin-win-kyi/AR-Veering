@@ -76,14 +76,14 @@ CROSSWALK_FAR_THRESHOLD_FACTOR = 0.50   # e.g., 50% of crosswalk width for "far"
 _client = None
 if os.getenv("GOOGLE_API_KEY"):
     _client = genai.Client(
-        api_key="AIzaSyAx-egleMw_vBtQeCeWXhLqY4nHZl2mfzM",
+        api_key="<API_KEY>",
         http_options={"api_version": "v1alpha"}, # Specify v1alpha for experimental models
     )
 else:
     # Fallback to hardcoded key if env var not set, but strongly discourage this in production
-    if "AIzaSyAx-egleMw_vBtQeCeWXhLqY4nHZl2mfzM": # Replace with your actual key if not using env var
+    if "<API_KEY>": # Replace with your actual key if not using env var
         _client = genai.Client(
-            api_key="AIzaSyAx-egleMw_vBtQeCeWXhLqY4nHZl2mfzM", # Your hardcoded key here
+            api_key="<API_KEY>", # Your hardcoded key here
             http_options={"api_version": "v1alpha"},
         )
         print("WARNING: Using hardcoded API key. Consider setting GOOGLE_API_KEY environment variable.")
