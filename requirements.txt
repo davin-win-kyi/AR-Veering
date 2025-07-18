@@ -1,0 +1,7 @@
+pyaudio
+google-generativeai      # package that provides `from google import genai`
+mss
+taskgroup
+exceptiongroup
+pynput
+av                       # PyAV
