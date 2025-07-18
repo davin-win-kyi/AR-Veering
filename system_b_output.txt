@@ -1,0 +1,30 @@
+2.21s, Back on crosswalk Signal is red.
+
+1.61s, On crosswalk No info.
+
+2.03s, On crosswalk The signal is white.
+
+0.85s, On crosswalk No info.
+
+1.94s, On crosswalk The walk signal is on.
+
+1.81s, Veering left off crosswalk The walk signal is on.
+
+0.87s, Still veering far left No info.
+
+0.91s, Still veering far left No info.
+
+2.15s, Still veering left The light is red. Do not cross. Pedestrians and a car are to your right.
+
+1.87s, Back on crosswalk The light is red. A person and a car are to the right.
+
+1.90s, On crosswalk The light is red. Turn left at the curb.
+
+0.97s, On crosswalk Curb on the left, car on the right.
+
+1.04s, Curb and manhole on the left.
+
+1.17s, Curb and manhole on the left.
+
+0.84s, Veering far left off crosswalk Manhole on the left. Manhole on the near right.
+
